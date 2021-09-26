@@ -1,0 +1,117 @@
+- bootstrap
+    ✔ -- forms @started(20-04-03 13:29) @done(20-04-04 09:30) @lasted(20h1m26s)
+        ✔ --- addservers.php @done(20-04-03 13:24)
+        ✔ --- firstloging.php @done(20-04-03 13:25)
+        ✔ --- keymgmt.php @done(20-04-03 13:25)
+        ✔ --- keymgmt_mod.php @done(20-04-03 13:26)
+        ✔ --- login.php @done(20-04-03 13:26)
+        ✔ --- modserver @done(20-04-03 21:46)
+    ✔ -- modules @started(20-04-04 09:42) @done(20-04-04 12:01) @lasted(2h19m21s)
+        ✔ --- addservers.php @done(20-04-04 09:42)
+        ✘ --- console.php @cancelled(20-04-04 09:44)
+        ✘ --- delservers.php @cancelled(20-04-04 09:49)
+        ✔ --- edit.php @done(20-04-04 10:01)
+        ✔ --- files.php @done(20-04-04 10:10)
+        ✘ --- firstlogin.php @cancelled(20-04-04 10:10)
+        ✘ --- genRsaOpensshKeys.php @cancelled(20-04-04 10:11)
+        ✘ --- genRsaPkcs1Keys.php @cancelled(20-04-04 10:11)
+        ✔ --- inventory.php @done(20-04-04 10:20)
+        ✔ --- keymgmt.php @done(20-04-04 10:30)
+        ✘ --- login.php @cancelled(20-04-04 10:47)
+        ✘ --- modservers.php @cancelled(20-04-04 10:48)
+        ✔ --- rfiles.php @done(20-04-04 11:09)
+        ✔ --- settings.php @done(20-04-04 11:31)
+        ✔ --- sftp.php @done(20-04-04 11:54)
+        ✔ --- ssh_connect.php @done(20-04-04 11:55)
+        ✔ --- start.php @done(20-04-04 12:00)
+    ✔ -- general @started(20-04-07 08:09) @done(20-04-07 08:13) @lasted(4m45s)
+        ✔ --- library.php @done(20-04-07 08:13)
+    ✔ -- forms @done(20-04-07 09:29)
+        ✔ --- mozliwosc podejrzenia hasla w firstlogin.php @done(20-04-07 08:46)
+        ✔ --- mozliwosc podejrzenia hasla w login.php @done(20-04-07 08:46)
+        ✔ --- mozliwosc podejrzenia hasla w addserver.php @done(20-04-07 08:51)
+        ✔ --- mozliwosc podejrzenia hasla w modserver.php @done(20-04-07 09:10)
+        ✔ --- mozliwosc podjerzenia hasla w secretforms. @done(20-04-07 09:29)
+
+- forms
+    ✔ -- modserver.php @started(20-04-04 12:07) @done(20-04-04 12:31) @lasted(24m33s)
+        ✔ --- Decrypt hasła i jego wyswietlnie @done(20-04-04 12:31)
+    ✔ -- login.php @started(20-04-04 12:47) @done(20-04-04 12:52) @lasted(5m18s)
+        ✔ --- Ustawic wyswietlanie pod 1366x768 @done(20-04-04 12:52)
+- modules
+    ✔ -- firstlogin.php @started(20-04-04 17:08) @done(20-04-04 17:11) @lasted(3m53s)
+        ✔ --- Ustawic podobnie do login, flage w _GET @done(20-04-04 17:11)
+    ✔ -- sftp.php @started(20-04-04 17:25) @done(20-04-04 17:36) @lasted(9m53s)
+        ✔ --- Obsluga powrotu do rfiles.php @done(20-04-04 17:25)
+        ✔ --- Jesli logowanie się nie powiedzie, to usun zawartosc $_SESSION['secret'] @done(20-04-04 17:26)
+        ✔ --- flaga dla nie znaleziono serwera @done(20-04-04 17:36)
+        ✔ --- flaga dla blednego logowania @done(20-04-04 17:36)
+        ✔ --- flaga dla "nie znaleziono klucza" @done(20-04-04 17:36)
+    ✔ -- files.php @started(20-04-04 17:37) @done(20-04-04 17:38) @lasted(1m51s)
+        ✔ --- Warunek decydujący o tabeli >= 3 @done(20-04-04 17:38)
+    ✔ -- delservers.php @started(20-04-04 17:39) @done(20-04-04 17:40) @lasted(1m42s)
+        ✔ --- powrót addservers.php z odpowiednią flagą @done(20-04-04 17:40)
+    ✔ -- addservers.php @started(20-04-04 17:41) @done(20-04-04 18:10) @lasted(29m2s)
+        ✔ --- obsluga flagi z delservers.php @done(20-04-04 18:09)
+        ✔ --- obsługa flagi z modservers.php @done(20-04-04 18:10)
+    ✔ -- ssh_connect.php @started(20-04-05 09:32) @done(20-04-05 09:38) @lasted(6m13s)
+        ✔ --- Jesli logowanie się nie powiedzie, to usun zawartosc $_SESSION['secret'] @done(20-04-05 09:38)
+        ✔ --- komunikat dla "nie znaleziono serwera" @done(20-04-05 09:36)
+        ✔ --- komunikat dla "nie znaleziono klucza" @done(20-04-05 09:36)
+        ✔ --- komunikat dla blednego logowania @done(20-04-05 09:36)
+    ✔ -- login.php @started(20-04-05 09:39) @done(20-04-05 09:43) @lasted(4m30s)
+        ✔ --- Brak komunikatu przy blednym logowaniu @done(20-04-05 09:43)
+    ✘ -- rfiles.php @cancelled(20-04-05 10:44)
+        ✘ --- obsluga flag @cancelled(20-04-05 10:44)
+    ✔ -- console.php @started(20-04-05 09:48) @done(20-04-05 10:20) @lasted(32m35s)
+        ✔ --- obsluga flag @done(20-04-05 10:20)
+        ✔ --- jesli polaczenie sie nie powiodlo nie wyswietlaj konsoli @done(20-04-05 10:20)
+    ✘ -- inventory.php @cancelled(20-04-05 10:46)
+        ✘ --- obsluga flag @cancelled(20-04-05 10:46)
+    ✔ -- modserver.php @started(20-04-04 12:33) @done(20-04-04 12:46) @lasted(13m3s)
+        ✔ --- procedura zapisywania haseł w bazie danych @done(20-04-04 12:46)
+    ✔ -- edit.php @started(20-04-05 10:46) @done(20-04-05 11:15) @lasted(29m39s)
+        ✔ -- flaga i powrot do files, kiedy zapisujemy plik @done(20-04-05 11:15)
+    ✔ -- chpasswd.php @started(20-04-05 20:44) @done(20-04-05 21:40) @lasted(56m32s)
+        ✔ -- formularz @done(20-04-05 20:59)
+        ✔ -- obsluga @done(20-04-05 21:40)
+    ✔ -- logout.php @started(20-04-05 11:55) @done(20-04-05 12:01) @lasted(6m18s)
+    ✔ -- firstlogin.php @started(20-04-05 11:42) @done(20-04-05 11:53) @lasted(11m59s)
+        ✔ -- walidacja hasla @done(20-04-05 11:53)
+    ✔ -- adduser.php @started(20-04-06 11:07) @done(20-04-07 08:00) @lasted(20h53m17s)
+        ✔ --- formularz @done(20-04-06 14:16)
+        ✔ --- obsluga @done(20-04-06 14:16)
+        ✔ --- resetowanie haseł i usuanie użytkowników @done(20-04-07 08:00)
+        ✘ --- definicja ról w obrębie całego systemu @cancelled(20-04-06 11:04)
+    ✔ -- addservers.php @started(20-04-05 20:03) @done(20-04-05 20:43) @lasted(40m18s)
+        ✔ --- co jesli nie zdefiniowanego klucza bezpieczeństwa haseł ? @done(20-04-05 20:43)
+
+- general
+    ✘ -- index.php @cancelled(20-04-05 11:16)
+        ✘ --- ustawic podobnie do login dla firstlogin @cancelled(20-04-05 11:16)
+    ✔ -- library.php @started(20-04-05 11:16) @done(20-04-05 11:21) @lasted(5m50s)
+        ✔ --- usunac var_dump z funkcji insertf @done(20-04-05 11:21)
+    ✔ -- style.css @started(20-04-05 19:47) @done(20-04-05 20:02) @lasted(15m43s)
+        ✔ --- Przystosowac login php rozdzielczosci 1440x900 @done(20-04-05 20:02)
+- modules
+    ☐ -- konsola 
+        --- usunac
+    ☐ -- jobs
+        --- Nowy modul do wdrozenia, z czynosciami do wykonania takim jak np. instalacja aktualizacji
+    ☐ -- server
+        --- Nowy moduł z podsumowaniem serwera wykresami zajętości zasobów, 
+        z możliwymi do wykonania czynnościami ( możliwe do realizacji przez porównanie dostępnych 
+        modułów z zainstalowanym na serwerze oprogramowaniem )
+    ☐ -- plugins
+        --- WeTTY jako element embed. Jeśli łączymy się poprzez hasło to bezpośrednio (przez link), 
+        jeśli za pomocą klucza, to realizujemy połączenie SSH na lokalny serwer (jako odrębny użytkownik) 
+        po przez link, i wykonujemy polecenie SSH wskazująć plik klucza opcja -i oraz nazwę użytkownika
+        oraz hasło.
+    ☐ -- keyexport
+        --- Kiedy dojdzie do połączenia powłoki interaktywnej (WeTTY) z bandersnatch należy wyeksportować
+        plik klucza poza /var/www/html do jakiegoś katalogu i nadać uprawnienia dla www-data
+    ☐ -- addserver/modserver
+        --- Przyjazne na nazwy dla serwerów (aliasy)
+
+
+Archive:

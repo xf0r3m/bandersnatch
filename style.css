@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+#menu {
+
+    margin-top: 3vh;
+    width: 10%;
+    float: left;
+    height: 95vh;
+    margin-right: 1%;
+}
+
+#menuButtonDiv {
+    margin-top: 3vh;
+    float: left;
+    height: 95vh;
+}
+
+#menuButton {
+    width: 24px;
+}
+
+/*
+a, a:active, a:visited {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+    background-color: gainsboro;
+}
+*/
+li {
+
+    list-style-type: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+
+}
+
+ul {
+    padding: 5px;
+}
+
+#content {
+    width: 86.25%;
+    float: left;
+    margin-left: 1%;
+}
+
+#logo {
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.dir_link, .dir_link:active, .dir_link:visited {
+    color: blue;
+}
+
+.file_link, .file_link:active, .file_link:visited {
+    color: green;
+}
+
+.dirContainer {
+    width: 45%;
+    float:left;
+}
+.dirLabel {
+    text-align: center;
+}
+
+.dirOutput {
+    height: 50vh;
+}
+
+#title {
+    height: 30vh;
+}
+/*
+@media only screen and (max-width: 1366px) {
+    #title {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #title {
+        height: 30vh;
+    }
+}
+*/

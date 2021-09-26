@@ -14,7 +14,7 @@ Instalacja:
         1. sudo apt update && apt upgrade
         2. sudo apt install tasksel
         3. sudo tasksel (Wybieramy z listy serwer LAMP)
-        4. git clone https://git.morketsmerke.net/xf0r3m/bandersnatch.git
+        4. git clone https://github.com/xf0r3m/bandersnatch.git
         5. cd bandersnatch
         6. sudo mv * ..
         7. zmieniamy hasło bazy danych, na silne.
